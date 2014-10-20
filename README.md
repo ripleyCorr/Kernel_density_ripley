@@ -327,7 +327,7 @@ ggplot() + geom_polygon(data = acci$finistere$polygon, aes(x = long, y = lat), f
   ggtitle("Accidents in Finistere")
 ```
 
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/obs_acci_fin.png" style="display: block; margin: auto; alt="Accidents in Finistere" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/obs_acci_fin.png" style="display: block; margin: auto; alt="Accidents in Finistere" />
 
 ```{r, fig.align = "center"}
 # Morbihan accidents location
@@ -336,7 +336,7 @@ ggplot() + geom_polygon(data = acci$morbihan$polygon, aes(x = long, y = lat), fi
   ggtitle("Accidents in Morbihan")
 ```
 
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/obs_acci_fin_nc.png" style="display: block; margin: auto; alt="Accidents in Finistere" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/obs_acci_fin_nc.png" style="display: block; margin: auto; alt="Accidents in Finistere" />
 
 
 #### Kernel density estimation
@@ -380,7 +380,7 @@ p_acci_fin <- plot_sKDE(smooth = smoothed_fin,
 print(p_acci_fin)
 ```
 
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_acci_fin.png" style="display: block; margin: auto; alt="Estimation of the density of accidents in Finistere" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_acci_fin.png" style="display: block; margin: auto; alt="Estimation of the density of accidents in Finistere" />
 
 And secondly, without considering the possible border effect:
 ```{r, fig.align = "center"}
@@ -401,7 +401,7 @@ p_acci_fin_nc <- plot_sKDE(smooth = smoothed_fin_nc,
 print(p_acci_fin_nc)
 ```
 
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_acci_fin_nc.png" style="display: block; margin: auto; alt="Estimation of the density of accidents in Finistere, without correction" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_acci_fin_nc.png" style="display: block; margin: auto; alt="Estimation of the density of accidents in Finistere, without correction" />
 
 ##### Morbihan
 
@@ -436,7 +436,7 @@ p_acci_morb <- plot_sKDE(smooth = smoothed_morb,
   coord_equal()
 print(p_acci_morb)
 ```
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_acci_morb.png" style="display: block; margin: auto; alt="Estimation of the density of accidents in Morbihan" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_acci_morb.png" style="display: block; margin: auto; alt="Estimation of the density of accidents in Morbihan" />
 
 ```{r, fig.align = "center"}
 p_acci_morb_nc <- plot_sKDE(smooth = smoothed_morb_nc,
@@ -456,7 +456,7 @@ p_acci_morb_nc <- plot_sKDE(smooth = smoothed_morb_nc,
 print(p_acci_morb_nc)
 ```
 
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_acci_morb_nc.png" style="display: block; margin: auto; alt="Estimation of the density of accidents in Morbihan, without correction" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_acci_morb_nc.png" style="display: block; margin: auto; alt="Estimation of the density of accidents in Morbihan, without correction" />
 
 
 ### Bike thefts in San Francisco
@@ -514,7 +514,7 @@ ggplot() +
   coord_equal()
 ```
 
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/obs_bike_thefts_sf.png" style="display: block; margin: auto; alt="Reported bike thefts in San Francisco, CA (2013)" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/obs_bike_thefts_sf.png" style="display: block; margin: auto; alt="Reported bike thefts in San Francisco, CA (2013)" />
 
 #### Kernel density estimation
 
@@ -558,7 +558,7 @@ p_bikes_sf <- plot_sKDE(smooth = smoothed_sf_bikes,
 print(p_bikes_sf)
 ```
 
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_bike_thefts_sf.png" style="display: block; margin: auto; alt="Estimation of the density of bike thefts in San Francisco, CA" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_bike_thefts_sf.png" style="display: block; margin: auto; alt="Estimation of the density of bike thefts in San Francisco, CA" />
 
 And secondly, without considering the possible border effect:
 ```{r, fig.align = "center"}
@@ -579,7 +579,7 @@ p_bikes_sf_nc <- plot_sKDE(smooth = smoothed_sf_bikes_nc,
 
 print(p_bikes_sf_nc)
 ```
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_bike_thefts_sf_nc.png" style="display: block; margin: auto; alt="Estimation of the density of bike thefts in San Francisco, CA, without correction" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_bike_thefts_sf_nc.png" style="display: block; margin: auto; alt="Estimation of the density of bike thefts in San Francisco, CA, without correction" />
 
 ### Campings in France
 
@@ -626,7 +626,7 @@ ggplot() + geom_polygon(data = france, aes(x = long, y = lat, group = group), fi
   coord_equal()
 ```
 
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/obs_campings_fr.png" style="display: block; margin: auto; alt="Campings spots in France" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/obs_campings_fr.png" style="display: block; margin: auto; alt="Campings spots in France" />
 
 
 #### Kernel density estimation
@@ -648,7 +648,7 @@ ggplot() + geom_polygon(data = france, aes(x = long, y = lat, group = group), fi
   coord_equal()
 ```
 
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/obs_campings_fr_samp.png" style="display: block; margin: auto; alt="Campings spots in France (Random sample of size 1000)" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/obs_campings_fr_samp.png" style="display: block; margin: auto; alt="Campings spots in France (Random sample of size 1000)" />
 
 
 The estimates are calculated as follows:
@@ -687,7 +687,7 @@ p_camping <- plot_sKDE(smooth = smoothed_camping,
 print(p_camping)
 ```
 
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_campings_fr_samp.png" style="display: block; margin: auto; alt="Estimation of the density of camping spots in France" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_campings_fr_samp.png" style="display: block; margin: auto; alt="Estimation of the density of camping spots in France" />
 
 
 And secondly, without considering the possible border effect:
@@ -709,4 +709,4 @@ p_camping_nc <- plot_sKDE(smooth = smoothed_camping_nc,
 print(p_camping_nc)
 ```
 
-[<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_campings_fr_samp_nc.png" style="display: block; margin: auto; alt="Estimation of the density of camping spots in France, without correction" />]
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/kde_campings_fr_samp_nc.png" style="display: block; margin: auto; alt="Estimation of the density of camping spots in France, without correction" />
