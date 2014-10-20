@@ -333,7 +333,7 @@ ggplot() + geom_polygon(data = acci$morbihan$polygon, aes(x = long, y = lat), fi
   ggtitle("Accidents in Morbihan")
 ```
 
-<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/obs_acci_fin_nc.png" style="display: block; margin: auto; alt="Accidents in Finistere" />
+<img src="https://dl.dropboxusercontent.com/u/26878989/kde_ripley/images/obs_acci_fin.png" style="display: block; margin: auto; alt="Accidents in Finistere" />
 
 
 #### Kernel density estimation
