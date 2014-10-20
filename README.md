@@ -301,10 +301,7 @@ library(reshape2)
 
 #### Data
 
-Data can be downloaded from <a href = "http://freakonometrics.hypotheses.org/smooth-maps/data/acci.RData">http://freakonometrics.hypotheses.org/smooth-maps/data/car_accidents/acci.RData</a>.
-```{r, eval=FALSE}
-load(url("http://freakonometrics.hypotheses.org/smooth-maps/data/car_accidents/acci.RData"))
-```
+Data are available in the "data" folder.
 ```{r, echo = FALSE}
 load("../data/car_accidents/acci.RData")
 ```
@@ -465,11 +462,8 @@ print(p_acci_morb_nc)
 
 ##### Map of San Francisco
 
-A map of San Francisco can be obtained from the Bay Area Census (2000) (<a href="http://www.mtc.ca.gov/maps_and_data/GIS/data.htm">http://www.mtc.ca.gov/maps_and_data/GIS/data.htm</a>). The information contained in the shapefile that can be downloaded on that website, is also available, in a more R friendly format, from <a href="http://freakonometrics.hypotheses.org/smooth-maps/data/bike_thefts/sf_df.RData">http://freakonometrics.hypotheses.org/smooth-maps/data/bike_thefts/sf_df.RData</a>.
+A map of San Francisco can be obtained from the Bay Area Census (2000) (<a href="http://www.mtc.ca.gov/maps_and_data/GIS/data.htm">http://www.mtc.ca.gov/maps_and_data/GIS/data.htm</a>). The information contained in the shapefile that can be downloaded on that website, is also available, in a more R friendly format, in the "data" folder.
 
-```{r, eval=FALSE}
-load(url("http://freakonometrics.hypotheses.org/smooth-maps/data/bike_thefts/sf_df.rda"))
-```
 ```{r, echo=FALSE}
 load("../data/bike_thefts/sf_df.rda")
 ```
@@ -479,11 +473,8 @@ The loaded object is called `sf_df`. It is a `data.frame` that can be used by `g
 
 ##### Bike thefts data (San Francisco, in 2013)
 
-Data about crimes reported in San Francisco are available on <a href="https://data.sfgov.org/"">https://data.sfgov.org/</a>. A focus on bike thefts reported in 2013 can be downloaded from <a href="http://freakonometrics.hypotheses.org/smooth-maps/data/bike_thefts/incidents_bikes.RData">http://freakonometrics.hypotheses.org/smooth-maps/data/bike_thefts/incidents_bikes.RData</a>.
+Data about crimes reported in San Francisco are available on <a href="https://data.sfgov.org/"">https://data.sfgov.org/</a>. A focus on bike thefts reported in 2013 can be found in the "data" folder.
 
-```{r, eval=FALSE}
-load(url("http://freakonometrics.hypotheses.org/smooth-maps/data/bike_thefts/incidents_bikes.RData"))
-```
 ```{r, echo=FALSE}
 load("../data/bike_thefts/incidents_bikes.RData")
 ```
@@ -587,18 +578,13 @@ print(p_bikes_sf_nc)
 
 ##### French map
 
-We need a French map, with a bit more details than the one that can be found in the `maps` package. We extracted the French border on the EuroGeographics european map (<a href="http://epp.eurostat.ec.europa.eu/cache/GISCO/geodatafiles/CNTR_2014_03M_SH.zip">http://epp.eurostat.ec.europa.eu/cache/GISCO/geodatafiles/CNTR_2014_03M_SH.zip</a>, © EuroGeographics for the administrative boundaries). The French frontier, which is extracted from this shapefile, can be downloaded on <a href="http://freakonometrics.hypotheses.org/smooth-maps/data/french_campings/france.RData">http://freakonometrics.hypotheses.org/smooth-maps/data/french_campings/france.RData</a>.
-```{r, eval=FALSE}
-load(url("http://freakonometrics.hypotheses.org/smooth-maps/data/french_campings/france.RData"))
-```
+We need a French map, with a bit more details than the one that can be found in the `maps` package. We extracted the French border on the EuroGeographics european map (<a href="http://epp.eurostat.ec.europa.eu/cache/GISCO/geodatafiles/CNTR_2014_03M_SH.zip">http://epp.eurostat.ec.europa.eu/cache/GISCO/geodatafiles/CNTR_2014_03M_SH.zip</a>, © EuroGeographics for the administrative boundaries). The French frontier, which is extracted from this shapefile, can be obtained in the "data" folder.
 
 
 ##### Camping locations
 
-Data can be downloaded from <a href = "http://freakonometrics.hypotheses.org/smooth-maps/data/acci.RData">http://freakonometrics.hypotheses.org/smooth-maps/data/french_campings/tourisme_camping.RData</a>.
-```{r, eval=FALSE}
-load(url("http://freakonometrics.hypotheses.org/smooth-maps/data/french_campings/tourisme_camping.RData"))
-```
+Data can also be downloaded from the "data" folder.
+
 ```{r, echo = FALSE}
 load("../data/french_campings/tourisme_camping.RData")
 load("../data/french_campings/france.RData")
