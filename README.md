@@ -1,7 +1,12 @@
-# title: "Kernel Density Estimation"
+# "Kernel Density Estimation"
 
 
-This page proposes some R codes to compute the kernel density estimates of two-dimensional data points, using an extension of Ripley's circumference method to correct for border bias. First, the functions <a href="#density-estimation-functions">computing the estimates</a> are given. Then, we provide a function <a href="#plot">to plot the result</a> on a map. And we finish with <a href="#applications">three examples</a>:
+This page proposes some R codes to compute the kernel density estimates of two-dimensional data points, using an extension of Ripley's circumference method to correct for border bias.
+
+
+**An R package is available on another repository: <a href="https://github.com/ripleyCorr/kdeborder">kdeborder</a>**
+
+First, the functions <a href="#density-estimation-functions">computing the estimates</a> are given. Then, we provide a function <a href="#plot">to plot the result</a> on a map. And we finish with <a href="#applications">three examples</a>:
 
 1. <a href="#car-accidents">a vizualisation of the density of car accidents in two French "départements"</a>;
 2. <a href="#bike-thefts-in-san-francisco">a vizualisation of the density of bike thefts locations in San Francisco</a>;
